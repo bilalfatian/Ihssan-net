@@ -1,0 +1,51 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.my-button {
+    background-color: #123456; 
+    border: none;
+    color: white; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.my-button:hover {
+    background-color: #234567; 
+    color: black; 
+}
+
+
+.card-hover-zoom {
+    transition: transform .2s;
+  }
+  
+.card-hover-zoom:hover {
+    transform: scale(1.025); 
+  }
+
+.raised-money {
+  font-size: 60px;
+}
+
+.green-icon {
+  color: rgb(28, 173, 101);
+}
+
+
+.grayed-logo {
+  width: 50px;
+  height: 20px;
+  opacity: .2;
+}
+
